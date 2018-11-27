@@ -1,0 +1,13 @@
+let completionengines = ['google', 'google-image', 'youtube', 'Wikipedia'] " Show only these engines in the command bar
+let qmark t = ["https://mail.google.com/tasks/canvas"] 
+let searchalias w = "wikipedia"
+let searchalias y = "youtube"
+map л scrollUp
+map о scrollDown
+map ч closeTab
+map к reloadTab
+map q cancelWebRequest
+map й cancelWebRequest
+map О previousTab
+map Л nextTab
+map пш goToInput
